@@ -45,7 +45,7 @@ class Geolocalizacion{
         
 
         //Token a utilizar de la API ipinfo.io
-        let token = '87c1831edcdae4'
+        let token = 'Aquí va el token de la API'
 
         const xhttp = new XMLHttpRequest()
         xhttp.open("GET", "https://ipinfo.io?token="+token, true)

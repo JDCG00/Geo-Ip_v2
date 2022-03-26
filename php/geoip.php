@@ -25,8 +25,6 @@
 
         $final_data = json_encode($json4);
 
-        echo $final_data;
-        
         file_put_contents('../js/data.json', $final_data);
     }
 ?>
